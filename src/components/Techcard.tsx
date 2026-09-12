@@ -17,7 +17,7 @@ type TechCardProps = {
     
 
 
-export default function TechCard({ tech, isAdded, onAdd }) {
+export default function TechCard({ tech, isAdded, onAdd }: TechCardProps) {
   return (
     <div className="border border-gray-200 rounded-xl p-5 flex flex-col bg-white">
       <div className="flex items-start justify-between mb-3">
