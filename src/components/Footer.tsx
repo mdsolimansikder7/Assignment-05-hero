@@ -3,8 +3,8 @@ import logo from "../assets/logo-text.png"
 export const Footer = () => {
   return (
     <footer className="border-t border-gray-200 mt-16">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 grid grid-cols-2 md:grid-cols-4 gap-10">
-        <div className="col-span-2 md:col-span-1">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12 sm:py-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-10">
+        <div className="sm:col-span-2 lg:col-span-1">
           <img src={logo} alt="Dev Stack" className="h-8 w-auto" />
           <p className="mt-4 text-gray-500 text-sm max-w-xs">
             Curated tools, technologies, and resources for developers building
@@ -17,7 +17,6 @@ export const Footer = () => {
           </div>
         </div>
 
-
         <div>
           <h4 className="font-semibold text-gray-900 text-sm tracking-wide">PRODUCT</h4>
           <ul className="mt-4 space-y-3 text-gray-500 text-sm">
@@ -26,7 +25,6 @@ export const Footer = () => {
             <li><a href="#projects" className="hover:text-pink-500">Projects</a></li>
           </ul>
         </div>
-
 
         <div>
           <h4 className="font-semibold text-gray-900 text-sm tracking-wide">COMPANY</h4>
@@ -37,7 +35,6 @@ export const Footer = () => {
           </ul>
         </div>
 
-   
         <div>
           <h4 className="font-semibold text-gray-900 text-sm tracking-wide">LEGAL</h4>
           <ul className="mt-4 space-y-3 text-gray-500 text-sm">
@@ -47,9 +44,8 @@ export const Footer = () => {
         </div>
       </div>
 
-
       <div className="border-t border-gray-200">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm text-gray-500">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-sm text-gray-500 text-center sm:text-left">
           <p>© 2026 Dev Stack. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#privacy" className="hover:text-pink-500">Privacy</a>
@@ -60,4 +56,5 @@ export const Footer = () => {
     </footer>
   )
 }
+
 export default Footer

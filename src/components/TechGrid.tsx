@@ -1,4 +1,3 @@
-
 import TechCard from "./Techcard"
 import type { Tech } from "../type"
 
@@ -10,7 +9,7 @@ type TechGridProps = {
 
 export default function TechGrid({ technologies, stackIds, onAdd }: TechGridProps) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-5">
       {technologies.map((tech) => (
         <TechCard
           key={tech.id}

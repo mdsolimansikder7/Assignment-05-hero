@@ -118,25 +118,7 @@
     "rating": 4.9,
     "difficulty": "Intermediate",
     "badge": "Containers"
-  },
-  {
-    "id": "git",
-    "name": "Git",
-    "category": "Tools",
-    "description": "A distributed version control system for tracking changes and collaborating on code.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Git.svg",
-    "rating": 4.9,
-    "difficulty": "Beginner-Friendly",
-    "badge": "Essential"
-  },
-  {
-    "id": "graphql",
-    "name": "GraphQL",
-    "category": "Backend",
-    "description": "A query language for APIs that lets clients ask for exactly the data they need.",
-    "icon": "https://icon.icepanel.io/Technology/svg/GraphQL.svg",
-    "rating": 4.6,
-    "difficulty": "Advanced",
-    "badge": "Flexible"
   }
+
+  
 ]

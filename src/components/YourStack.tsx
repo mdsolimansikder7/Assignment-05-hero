@@ -1,9 +1,4 @@
-type Tech = {
-  id: string
-  name: string
-  icon: string
-  category: string
-}
+import type { Tech } from "../type"
 
 type YourStackProps = {
   stack: Tech[]
@@ -15,7 +10,7 @@ export default function YourStack({ stack, onRemove, onRemoveAll }: YourStackPro
   const count = stack.length
 
   return (
-    <aside className="border border-gray-200 rounded-xl p-5 bg-white h-fit lg:sticky lg:top-24">
+    <aside className="border border-gray-200 rounded-xl p-4 sm:p-5 bg-white h-fit lg:sticky lg:top-24">
       <h3 className="font-bold text-gray-900 text-lg">Your Stack</h3>
       <p className="text-sm text-gray-400 mb-4">
         {count === 0
